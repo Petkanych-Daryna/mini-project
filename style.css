@@ -1,4 +1,4 @@
-/* ==== RESET ==== */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
 }
 
-/* ==== SEARCH FORM ==== */
+
 .search-form {
   margin: 25px 0;
 }
@@ -42,7 +42,7 @@ body {
   background: #ff6a00;
 }
 
-/* ==== GALLERY ==== */
+
 .gallery {
   list-style: none;
   max-width: 1300px;
@@ -53,7 +53,7 @@ body {
   gap: 20px;
 }
 
-/* ==== CARD ==== */
+
 .photo-card {
   background: #2a2b33;
   border-radius: 12px;
@@ -81,7 +81,7 @@ body {
   filter: brightness(0.9);
 }
 
-/* ==== STATS ==== */
+
 .stats {
   display: flex;
   justify-content: space-evenly;
@@ -104,7 +104,7 @@ body {
   color: #ffd54f;
 }
 
-/* ==== LOAD MORE BUTTON ==== */
+
 .load-more {
   padding: 12px 25px;
   border: none;
