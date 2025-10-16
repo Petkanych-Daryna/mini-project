@@ -1,0 +1,123 @@
+/* ==== RESET ==== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #1e1f26;
+  color: white;
+  min-height: 100vh;
+}
+
+/* ==== SEARCH FORM ==== */
+.search-form {
+  margin: 25px 0;
+}
+
+.search-form input {
+  width: 300px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-form button {
+  padding: 12px 18px;
+  margin-left: 8px;
+  border: none;
+  cursor: pointer;
+  background: #ff9800;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.search-form button:hover {
+  background: #ff6a00;
+}
+
+/* ==== GALLERY ==== */
+.gallery {
+  list-style: none;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* ==== CARD ==== */
+.photo-card {
+  background: #2a2b33;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+
+.photo-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+.photo-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+
+.photo-card:hover img {
+  filter: brightness(0.9);
+}
+
+/* ==== STATS ==== */
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 12px;
+  border-top: 1px solid #3a3b42;
+}
+
+.stats-item {
+  display: flex;
+  gap: 6px;
+}
+
+.material-icons {
+  color: #ff9800;
+  transition: 0.3s;
+}
+
+.stats-item:hover .material-icons {
+  transform: scale(1.2);
+  color: #ffd54f;
+}
+
+/* ==== LOAD MORE BUTTON ==== */
+.load-more {
+  padding: 12px 25px;
+  border: none;
+  background: #03a9f4;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px auto 30px;
+  display: block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.load-more:hover {
+  background: #0288d1;
+}
